@@ -1,0 +1,121 @@
+.card{
+      border: 1px solid;
+      background-image: url(bear.jpg);
+      height: 400px;
+      width: 400px;
+      background-size: cover;
+      border-radius: 100px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      margin-left: 50%;
+
+}
+.box{
+      border: 1px solid;
+      height: 600px;
+      width: 500px;
+      border-radius: 50px;
+      background-image: url(ring.jpg);
+}
+.body{
+      background-image: url(backg.jpg);
+}
+.btn{
+      height: 20px;
+      width: 70px;
+      border-radius: 20px;
+      margin-right: 50px;
+      margin-top: 10px;
+      margin-left: 20px;
+      
+}
+.btn:hover
+{
+      transition: 1s ease-in-out;
+      transform: scale(1.2);
+      background-color: green;
+      text-transform: capitalize;
+      rotate: 20deg ;
+}
+.btn2{
+      height: 20px;
+      width: 80px;
+      border-radius: 20px;
+      margin-right: 50px;
+      margin-top: 10px;
+      margin-left: 20px;
+      
+}
+.btn2:hover
+{
+      transition: 1s ease-in-out;
+      transform: scale(1.2);
+      background-color: red;
+      rotate: 20deg;
+      
+}
+.pr{
+      margin-top: 180px;
+      height: 50px;
+      padding: 10px;
+      border-radius: 10px;
+      width: 250px;
+      border: 1px solid;
+      justify-content: center;
+      text-align: center;
+      font-size: large;
+      font-weight: 900;
+      margin-left: 20px;
+      background-image: url(ring.jpg);
+      background-size: cover;
+      color: yellow;
+}
+.pr:hover{
+      transform: scale(1.15);
+      transition: 1s;
+}
+.poem{
+      height: 100px;
+      width: 450px;
+      border: 1px solid;
+      margin-left: 493px;
+      margin-top: 1px;
+      border-radius: 100px;
+      background-image: url(para.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      text-align: center;
+      justify-content: center;
+      font-size: large;
+      font-weight: 100;
+      align-items: center;
+      padding: 50%;
+
+}
+.poem:hover{
+      transform: scale(1.15);
+      transition: 1s;
+
+}
+.love{
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      background-size: cover;
+      animation: fall 5s infinite;
+      background-image: url(yess.jpg);
+      margin-left: 80%;
+
+}
+@keyframes fall{
+      0%{
+            transform: translateY(-10%) translateX(0);
+            opacity:1 ;
+
+      }100%{
+            transform: translateY(100vh) translateX(-30px);
+            opacity:0 ;
+
+      }
+}
